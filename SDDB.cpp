@@ -477,7 +477,7 @@ pair<string,string> SDDB::createDirectories (const string outputpath, const bool
     currenttime = timestamp();
     
     string outputdir;
-    outputdir = outputpath + "output." + currenttime;
+    outputdir = outputpath + "output.";
 
     int resultcode = 0;
     resultcode = makeDir(outputdir);
